@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="rectangle.css">
+    <link rel="stylesheet" href="mainpage.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="Desktop1">
+        <div class="Rectangle1">
+          <div class="secondary">
+            <p>Your One Step Solution</p>
+          </div>
+          <div class="navbar">
+            <a href="#home" class="home">Home</a>
+            <a href="about.html" class="about">About Us</a>
+            <a href="#Locate" class="locate">Locate</a>
+            <a href="http://localhost:5001/"><button class="Login">Login</button></a>
+            <a href="#contactus " class="ContactUs">ContactUs</a>
+            <img class="logo" src="images/logos.png" alt="logo">
+          </div>
+          <div class="dropdown">
+            <button class="dropdown-button"><i class="fas fa-bars"></i></button>
+            <div class="dropdown-content">
+              <a href="#">Option 1</a>
+              <a href="#">Option 2</a>
+              <a href="#">Option 3</a>
+            </div>
+          </div>
+          <h1 style="text-align:center">LOCATE</h1>
+          <div id="map" style="width:100%;height:400px;"></div>
+   
+  <div class="Aushadhi">AUSHADHI</div>
+  <div class="image"><img src="images/symbol.png" alt="medicine" style="
+      width: 112px;
+      height: 86px;
+      position:relative;
+      margin:30px;
+      left: 35px;
+      bottom: 1027px;">
+  </div>
+  <table>
+        <tr>
+          <th style="width:20%">Sl No.</th>
+          <th>Pharmacies And Hospital</th>
+          <th>Locate</th>
+        </tr>
+        <tr>
+          <td style="width: 20%;">1</td>
+          <td>Chauhan Medical Store</td>
+          <td><a href="https://www.google.com/maps/dir//7G7F%2B5HH,+Unnamed+Road,+Bahadurpur+Da+Jayas,+Uttar+Pradesh+229305/@26.2629185,81.4415754,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x399a5564d44166c5:0x7d6f688f6685822c!2m2!1d81.5240104!2d26.2630161?hl=en&entry=ttu" target="_blank"><button class="Locate">Get Directions</button></a></td>
+        </tr>
+        <tr>
+          <td style="width:20%">2</td>
+          <td>Patel Medical Store</td>
+          <td><a href="https://www.google.com/maps/dir//NEW+PATEL+MEDICAL+STORE+JAIS+BAHADURPUR+AMETHI.,+Jais+Station+Road+-+Bahadur+Pur,+Bahadurpur+Jais,+Uttar+Pradesh+229305,+bahadur+pur+jais+amethi,+Uttar+Pradesh+229304/@26.2628244,81.4415749,12z/data=!4m9!4m8!1m0!1m5!1m1!1s0x399a5354575a6c35:0xf4985a628731b5d6!2m2!1d81.5200183!2d26.2649607!3e0?hl=en&entry=ttu" target="_blank"><button class="Locate">Get Directions</button></a></td>
+        </tr>
+        <tr>
+          <td style="width:20%">3</td>
+          <td>Kaushal Medical Store</td>
+          <td><a href="https://www.google.com/maps/dir//kaushal+medical+store,+STATION+ROAD,+Bahadur+Pur,+Uttar+Pradesh+229305/@26.2627774,81.4415747,12z/data=!4m9!4m8!1m0!1m5!1m1!1s0x399a53106feb9349:0x6059d5e3f0281cfe!2m2!1d81.5205551!2d26.2652619!3e0?hl=en&entry=ttu" target="_blank"><button class="Locate">Get Directions</button></a></td>
+        </tr>
+        <tr>
+          
+        </tr>
+      </table>
+  <div id="map" style="width:100%;height:400px;"></div>
+    <script>
+      var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: 26.2751712, lng: 81.5064081},
+          zoom: 8
+        });
+      }
+    </script>
+    <script src="https://cdn.jsdelivr.net/gh/somanchiu/Keyless-Google-Maps-API@v6.6/mapsJavaScriptAPI.js"
+    async defer></script>
+
+</body>
+</html>
